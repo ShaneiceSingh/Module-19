@@ -1008,7 +1008,7 @@ background-color: var(--first-color);
   gap: 2rem 4rem;
   align-items:center;
   padding-block: 5.5rem;
-  height: 90vh;
+  height: 50vh;
 }
 
 .home__profile{
