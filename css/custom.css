@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+section{
+    padding: 60px 0;
+}
+
+#logo{
+    width: 10%;
+
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.nav-link:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+
+#herotext {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'inconsolata', sans-serif;
+}
+
+.container-lg {
+    position: relative;
+    overflow: hidden; /* Hide the overflow */
+}
+
+#subtitle{
+    background: #C3F07B;
+    width: 60%;
+}
+
+
+.pstatement{
+    background: lightgray;
+}
+
+.dprocess{
+    background: white;
+}
+
+.icon-2{
+width: 50%;
+}
+
+.lofiwireframes{
+    background-color: #C3F07B;
+}
+.topset1,
+.bottomset2{
+    width: 75%;
+    margin-top: 2rem;
+}

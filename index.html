@@ -1,184 +1,135 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="/css/custom.css" rel="stylesheet">
+    <style>
+      .nav-link {
+          color: black;
+          text-decoration: none;
+          transition: color 0.3s, border-color 0.3s;
+      }
 
-<!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-      <link rel="shortcut icon" href="./assets/img/logo3.png" type="image/x-icon">
-
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
-
-    
-      <link rel="stylesheet" href="assets/css/styles.css">
-
-      <title>S Danniel Designs: About</title>
-   </head>
-   <body>
-
-      <section class="home section" id="home">
-         <header class="header" id="header">
-            <nav class="nav container">
-               <a href="#" class="nav__logo">
-                  <img src="./assets/img/logo.png" alt="S Danniel Designs.logo" class="logoimg">
-                  <span class="nav__logo-name">S. Danniel Designs</span>
-               </a>
-               <div class="nav__buttons">
-                  <div class="nav__toggle" id="nav-toggle">
-                     <i class="ri-menu-4-line"></i>
-                     </div>
-                  </div>
-         <div class="nav__menu" id="nav-menu">
-            <span class="nav__title">Menu</span>
-
-            <h3 class="nav__name">Shaneice Danniel</h3>
-
-            <ul class="nav__list">
-
-               <!-- <li class="nav__item"> -->
-                  <li class="nav__item">
-                     <a href="#About" class="nav__link active-link">About Me</a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#Services" class="nav__link active-link">Services</a>
-                  </li>
-                  <!-- <li class="nav__item"> -->
-                  <li class="nav__item">
-                  <a href="#Portfolio" class="nav__link">Portfolio</a>
-                  </li>
-                  <li class="nav__item">
-                     <a href="#Contact" class="nav__link nav__link-button">Contact Me</a>
-                  </li>
+      .nav-link:hover {
+          color: green;
+          border-bottom: 2px solid green;
+      }
+  </style>
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/logo.png" id="logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navlist">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Define</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ideate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Test</a>
+                </li>
             </ul>
-            <div class="nav__close" id="nav-close">
-               <i class="ri-close-line"></i>
+            <form class="d-flex">
+                <button class="btn btn-outline-dark" type="submit">Hire Me</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--main image & intro text-->
+<section class="mainsection bg-light" id="intro">
+    <div class="container-lg">
+        <div class="row justify-content-center">
+            <div class="col-mid-5.text-center.text-md-start" id="Herotext">
+                <img src="/assets/Group 34151.png" alt="">
+
+                <h1>
+                    <div class="display-2 text-dark">Buddy System</div>
+                    <div class="display-6 text-muted" id="subtitle"> UX Mobile Case Study </div>
+                </h1>
+                <h3>
+                <p class="lead my-4 text-muted"> Duration <br> ipsum dolor sit, amet consectetur adipisicing elit. </br> </p>
+                </h3>
             </div>
-         </div>
-         
-         </nav>
-      </header>
+        </div>
+    </div>
+</section>
 
 
-      <main class="main">
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <h1 class="home__name">
-                  About the Designer
-               </h1>
-               <div class="home__profile">
-                  <div class="home__image">
-                     <img src="./assets/img/face-1.png" alt="homeimage" class="home__img">
-                  </div>
 
-                  <div class="home__social">
-                     <a href="" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-                     <a href="" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                     <a href="" target="_blank" class="home__social-link">
-                        <i class="ri-github-line"></i>
-                     </a>
-                  </div>
-               </div>
 
-               <div class="home__info"> 
-                  <p class="home__description">
-                 
-                     Independent UX Specialist elevating digital brands, products, and services. 
-                  </p>
-                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quaerat adipisci molestiae ab iure mollitia sequi quas architecto ex officiis eius pariatur recusandae necessitatibus qui modi cupiditate quis officia quam repellat odit labore, molestias, dolorem voluptatum incidunt! Quod, inventore. Totam sit impedit aliquam ipsum sint adipisci iusto quod magni sequi!</p>
-               </div>
+
+<section class="mobile-app-overview">
+  <div class="display-6 text-light">Mobile App: Overview</div>
+  <div class="container bg-dark text-light">
+    <div class="row row-cols-2">
+      <div class="col-md-3"><img class="w-100" src="./assets/Group 34152.png" alt="image"></div>
+      <div class="col-md-9 text-justify">
+        BuddySystem is a unique platform that strives to create a welcoming environment for everyone. With an "all-inclusive" approach, the platform is designed to facilitate authentic friendships and vibrant communities through engaging events and shared interests.
+        <div class="container text-center bg-dark text-light">
+          <div class="row row-cols-2">
+            <div class="col">
+              <h4>Responsiblity</h4>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
             </div>
-         
-         </section>
-      </section>
-
-         <section class="about__section" id="about">
-            <div class="about__container container grid">
-               <h2 class="section__title-1">
-                  <span>Industry Experience & Skills.</span>
-               </h2>
-
-               <div class="about__info">
-                  <p class="about__description"> 
-                     Education
-                  </p>
-
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b> University of Toronto:</b> Bachelors, Sociology
-                     </li>
-                     <li class="about__item">
-                        <b> University of Toronto:</b> Bachelors, Sociology
-                     </li>
-                  </ul>
-                  </div>
-
-                  <div class="about__info">
-                     <p class="about__description"> 
-                        Core Skills
-                     </p>
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b> My Skills Are:</b> HTML, CSS, JavaScript, 
-                        React, Git & GitHub, Bootstrap, Flutter & Figma.
-                     </li>
-                  </ul>
-                  </ul>
-                  <div class="about__buttons">
-                     <a href="#Contact" class="button">
-                        <i class="ri-mail-send-line"></i> Download CV
-                     </a>
-                     <a href="" target="_blank" class="button__ghost">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-
-                  </div>
-               </div>
+            <div class="col">
+              <h4>Tools</h4>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
             </div>
-         </section>
-
-         <section class="faqs__section" id="faqs">
-            <div class="faq__container container grid">
-               <h2 class="section__title-01">
-                  <span>FAQs.</span>
-               </h2>
-
-               <div class="question">
-                  <button>
-                      <span>What Services Do I Offer?</span>
-                      <i class="fas fa-chevron-down d-arrow"></i>
-                  </button>
-                  <p class="response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
-              </div>
-               <div class="question">
-                  <button>
-                      <span>What Are My Rates?</span>
-                      <i class="fas fa-chevron-down d-arrow"></i>
-                  </button>
-                  <p class="response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
-              </div>
-   
-              <div class="question">
-                  <button>
-                      <span>Do I Offer Discounts?</span>
-                      <i class="fas fa-chevron-down d-arrow"></i>
-                  </button>
-                  <p class="response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
-              </div>
-      
-              <div class="question">
-                  <button>
-                      <span>Am I Currently Available For Work?</span>
-                      <i class="fas fa-chevron-down d-arrow"></i>
-                  </button>
-                  <p class="response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis pariatur a maiores minus tempore magni nam beatae dolores omnis.</p>
-              </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -200,12 +151,25 @@
 
 
 
+  <!--Problem Statement-->
+  <section class="pstatement p-3">
+    <div class="display-6 text-dark"> Problem Statement </div>
+    <div class="container text-start">
+      <div class="row row-cols-2">
+        <div class="col"><img class="w-75" src="./assets/Lightbulb-1.png" alt=""></div>
+        <div class="col"><h6>Problem Statement</h6><p>Today's digital age, the market for social apps is over saturated with an abundance of platforms that encourage hookup culture and shallow connections. Unfortunately, this emphasis can impede individuals from finding authentic friendships within their respective communities, leaving them feeling disconnected and unfulfilled.</p>
+          <p>Millennials, who spearheaded the social media era, are increasingly reliant on online sources to meet and connect. However, this shift has also led to a rise in social anxiety and isolation, making it challenging for them to form meaningful friendships and a sense of community – especially when online engagement is often superficial.</p>
+          </div>
+        <div class="col"><p>“A poll of about 1,200 people by YouGov found 27% of Millennials have no close friends, and 22% report they have no friends at all. Most people find it difficult to make friends because they’re shy (53%), but people also report friendship is too much work (20%) or they are too busy (14%).” Forbes (2021)”</p></div>
+        <div class="col"><h6>Solution</h6><p>BuddySystem is a unique platform that strives to create a welcoming environment for everyone. With an "all-inclusive" approach, the platform is designed to facilitate authentic friendships and vibrant communities through engaging events and shared interests.
+        </div>
+    </div>
+
+  </section>
 
 
 
 
-            </div>
-         </section>
 
 
 
@@ -215,117 +179,245 @@
 
 
 
-    
-         <section class="contact section" id="contact">
-            <div class="contact__container grid">
-               <div class="contact__data">
-                  <h2 class="section__title-2">
-                     <span>Contact Me.</span>
-                  </h2>
-
-                  <p class="contact__description-1">
-                     [Insert Short Description Here]
-                  </p>
-
-                  <p class="contact__description-2">
-                     [Insert Short Description Here]
-                  </p>
-
-                  <div class="geometric-box"></div>
-               </div>
+<!--Design Process-->
+<section class="dprocess">
+    <div class="display-6 text-dark"> Design Process </div>
+    <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col"><img src="..." class="img-thumbnail" alt="..."><br> ipsum dolor sit amet consectetur adipisicing elit.</div>
+          <div class="col"><img src="..." class="img-thumbnail" alt="..."><br> ipsum dolor sit amet consectetur adipisicing elit.</div>
+          <div class="col"><img src="..." class="img-thumbnail" alt="..."><br> ipsum dolor sit amet consectetur adipisicing elit.</div>
+          <div class="col"><img src="..." class="img-thumbnail" alt="..."><br> ipsum dolor sit amet consectetur adipisicing elit.</div>
+          <div class="col"><img src="..." class="img-thumbnail" alt="..."><br> ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+    </div>
+</section>
 
 
 
-               <div class="contact__mail">
-                  <h2 class="contact__title">
-                     Get in Touch
-                  </h2>
-                  <form action="" class="contact__Form" id="contact-form">
-                     <div class="contact__group">
-                           <div class="contact__box">
-                              <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                              <label for="name" class="contact__label">First Name</label>
-                           </div>
 
-                           <div class="contact__box">
-                              <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                              <label for="email" class="contact__label">Email Address</label>
-                           </div>
-                     
-
-                     <div class="contact__box">
-                           <input type="text" name="subject" class="contact__input" id="subject" required placeholder="Subject">
-                           <label for="subject" class="contact__label">Subject</label>
-                     </div>
-
-                     <div class="contact__box contact__area">
-                           <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                           <label for="message" class="contact__label">Message</label>
-                     </div>
-
-                     <p class="contact__message" id="contact-message"></p>
-                     <button type="submit" class="contact__button button">
-                           <i class="ri-mail-send-line"></i> Send Message
-                     </button>
-                  </form>
-               </div>
-            </div>
-               <div class="contact__social">
-       
-
-                  <div class="contact__social-data">
-                     <div>
-                        </p>
-                        <p class="contact__social-description-2">
-                          Feel free to contact me on any of my socials
-                        </p>
-                     </div>
-                     <div class="contact__social-links">
-                        <a href="#" target="_blank" class="contact__social-link">
-                           <i class="ri-facebook-circle-line"></i>
-                        </a>
-                        <a href="#" target="_blank" class="contact__social-link">
-                           <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="#" target="_blank" class="contact__social-link">
-                           <i class="ri-linkedin-box-line"></i>
-                        </a>
-                     </div>
-                  </div>
-
-               </div>
-            
-         </section>
-      </main>
+<section class="Design Timeline">
+<h1 class="text-light">Design Timeline</h1>
+<img src="./assets/Timeline.png" alt="timeline">
+</section>
 
 
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <ul class="footer__links">
-               <li><a href="#about" class="footer__link">About</a>
-               </li>
-               <li><a href="#Services" class="footer__link">Services</a>
-               </li>
-               <li><a href="#Projects" class="footer__link">Projects</a>
-               </li>
-            </ul>
-
-            <span class="footer__copy"> 
-               &#169; S. Danniel Designs
-            </span>
-         </div>
-      </footer>
 
 
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
 
-      
-      <script src=""></script>
-      
-   
 
-      <script src="assets/js/main.js"></script>
-   </body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="Target Audience bg-secondary">
+    <div class="display-6 text-dark"> Target Audience </div>
+    <div class="container text-center text-dark">
+        <div class="row row-cols-2">
+          <div class="col-6"><img class="w-25" src="./assets/Person-Icon.png" alt=""></div>
+          <div class="col-6 text-start">Lorem ipsum dolor sit amet, consecte adipiscing elit. Vitae, pharetra faucibus gravida id mauris turpis. Elementum purus, fermentum porta felis. Ultrices </div>
+        </div>
+      </div>
+</section>
+
+
+<section class="User Research bg-light">
+  <div class="display-6 text-dark"> User Research </div>
+  <div class="container text-center text-dark">
+      <div class="row row-cols-2">
+        <div class="col-6 text-start">Lorem ipsum dolor sit amet, consecte adipiscing elit. Vitae, pharetra faucibus gravida id mauris turpis. Elementum purus, fermentum porta felis. Ultrices </div>
+        <div class="col-6"><img class="w-50" src="./assets/Person-Icon.png" alt=""></div>
+        <div class="col-6 text-start">Lorem ipsum dolor sit amet, consecte adipiscing elit. Vitae, pharetra faucibus gravida id mauris turpis. Elementum purus, fermentum porta felis. Ultrices </div>
+        <table class="table table-dark table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="User Interviews">
+    <div class="display-6 text-light"> User Interviews</div>
+    <div class="container text-center bg-light text-dark">
+        <div class="row row-cols-2">
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+        </div>
+      </div>
+</section>
+
+<section class="Quantitative Research bg-secondary">
+  <div class="display-6 text-light">Quantitative Research</div>
+  <div class="container text-center bg-light text-dark">
+      <div class="row row-cols-2">
+        <div class="col">Column</div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col">Column</div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+</section>
+
+<section class="User Persona bg-primary">
+  <div class="display-6 text-light">User Persona</div>
+  <div class="container text-center text-dark">
+      <div class="row row-cols-1">
+        <h5>Quantitative Research</h5>
+        <div class="col">Column</div>
+      </div>
+      <div class="row row-cols-1">
+        <h5>Quantitative Research</h5>
+
+        <div class="col">Column</div>
+      </div>
+      <div class="row row-cols-2">
+        <h5>Observations</h5>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+</section>
+
+
+
+
+<section class="User Persona">
+  <div class="display-6 text-light"> User Persona: Friendly Frankie</div>
+  <div class="container text-center bg-light text-dark">
+      <div class="row row-cols-2">
+        <div class="col"><img src="/assets/istockphoto-1357880802-1024x1024-transformed 2.png" alt="img"></div>
+        <div class="col">Column2</div>
+      </div>
+      <div class="row row-cols-1">
+        <div class="col">
+          Friendly Frankie is a new entrepreneur; working freelance at her own web design agency. Her career change keeps her busier than ever, with an unpredictable schedule. Her social circle is fairly small. She tends to spend most of her down time with her partner, but is craving platonic friendships. Residing in Toronto, her cost of living has been on a steady incline, so she’s taken up growing her own herbs on her condo balcony in hopes of saving a little money. She’d love to develop more of a green thumb and connect with others who could share their expertise.
+        </div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col"><img src="/assets/Group 34156.png" alt=""></div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col"><img src="./assets/Psychograaphics.png" alt=""></div>
+      </div>
+    </div>
+</section>
+
+
+<section class="painpoints">
+    <div class="display-6 text-light"> Painpoints</div>
+    <div class="container text-center bg-light text-dark">
+        <div class="row row-cols-2">
+          <div class="col">Column</div>
+          <div class="row-3 col">
+            <p>Test</p>
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+<section class="lofiwireframes text-center">
+  <div class="display-6 text-dark">Low-Fidelity Wireframes</div>
+  <img src="./assets/Top Set-1.png" alt="img" class="topset1 mx-auto">
+  <img src="./assets/Bottom Set-1.png" alt="img" class="bottomset2 mx-auto">
+</section>
+
+<section class="hifiwireframes bg-light text-center">
+  <div class="display-6 text-dark">High-Fidelity Wireframes</div>
+  <div class="row row-cols-3">
+  <img src="./assets/hifi1.png" alt="img" class="topset1 mx-auto w-25">
+  <img src="./assets/hifi2.png" alt="img" class="topset1 mx-auto W-25">
+  <img src="./assets/hifi3.png" alt="img" class="topset1 mx-auto W-25">
+</div>
+</section>
+
+<section class="">
+<div class="container-lg">
+    <h2> Basic Grid</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-12">
+        <div class="p-5 bg-light text-dark">
+          <h1> Key Takeaways</h1>
+          <p> Reach out via email: [insert email]</p>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="bg-light">
+<div class="container-lg">
+    <h2> Basic Grid</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-12">
+        <div class="p-5 bg-light text-dark">
+          <h1> Roadmap</h1>
+          <p> Reach out via email: [insert email]</p>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="bg-secondary">
+<div class="container-lg">
+    <h2> Basic Grid</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-12">
+        <div class="p-5 text-dark">
+          <h1> Thank you for Viewing</h1>
+          <p> Reach out via email: [insert email]</p>
+        </div>
+        </div>
+    </div>
+</div>
+</section>
